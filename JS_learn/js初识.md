@@ -71,5 +71,10 @@ var age = 18, address = '111';
 2. 拼接前会把**字符串相加的任何类型转成字符串**，在拼接成一个新的字符串
 例如 'console.log('122'+true);'
 输出的是 122·true
+3. 数值相加，字符相连
 
+- 字符串拼接加强
+1. 引引相加
 
+### Undefined 和Null 
+'console.log(variable + 1);' 结果为NaN
