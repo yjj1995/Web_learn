@@ -78,3 +78,27 @@ var age = 18, address = '111';
 
 ### Undefined 和Null 
 'console.log(variable + 1);' 结果为NaN
+
+## 获取数据类型
+- typeof 可用来检测变量的数据类型
+- prompt 得到的输入值是字符型
+- 利用控制台的颜色（F12）黑色就是字符串，蓝色是数值型
+### 字面量 
+- 数字字面量
+- 字符串字面量
+- 布尔。。。。。
+
+## 数字类型转换
+- 将一种数据类型转换为另外一种数据类型
+### 转化为字符串
+- toString() 'var str = num.toString()'
+- String() 强制转换 'var str = String(num)'
+- 加号拼接 num + ' ' 更受欢迎（隐式转换）
+
+### 转化为数字型 4种
+|方式|说明|案例|
+|:--|:--|:--|
+|parseInt(string)|将string类型转换成整数数值型|parselnt('78')|
+|parseFloat(string)|将string类型转换成浮点数数值型|parseFloat('88.22')|
+|Number()强制转换|将string类型转换为数值型|Number('12')|
+|js隐式转换(- * /)|利用算术运算隐士转换为数值型|'12'-0| 
