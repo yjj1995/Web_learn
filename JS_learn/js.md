@@ -160,6 +160,18 @@ Boolean() Boolean('true')
 1. var arr = [];                                                                                                                                                                                                                                                                                                                                                                                                                                          
 2. var arr = ['a','b','c'];
 3. var arr = new Array();创建了一个空的数组
+    var arr1 = new Array(8);创建了8个元素的数组       
+    var arr2 = new Array('ww','ww','ss');创建了8个元素的数组       
     var arr = [];
     var arr1 = [1,2,'sdada',true]
 
+
+## 函数
+### 1. 函数的概念
+    function getSum(num1, num2){
+        var sum = 0;
+        for (var i = 10; i <= 50; i++){
+            sum += i;
+        }
+        console.log(sum);
+    }
